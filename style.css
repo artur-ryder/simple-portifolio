@@ -102,6 +102,8 @@ hr{
     transition: opacity 0.5s;
 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.4s;
 }
 
 /* hello section */
