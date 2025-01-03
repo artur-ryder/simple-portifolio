@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.4">
+    <title>Portifolio Editor</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tip">Essa é uma dica</div>
+    
+    <header id="main-header">
+        <nav id="main-nav">
+            <h1>Nome</h1>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a data-name="skills" href="#skills" class="nav-link">
+                        <span class="material-symbols-outlined">pages</span> Habilidades
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-name="projects" href="#projetos" class="nav-link">
+                        <span class="material-symbols-outlined">dashboard</span> Projetos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-name="about" href="#sobre" class="nav-link">
+                        <span class="material-symbols-outlined">info</span> Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="hello">
+        <img src="avatar.jpg" alt="avatar" id="avatar">
+        <div id="titles">
+
+            <h1 class="title">Olá,</h1>
+            <h1 class="title">Meu nome é <span class="accent">Nome</span>!</h1>
+
+            <p class="description">
+                Uma pessoa apaixonada por 
+                <span class="accent"> 
+                    edição de vídeo
+                </span> e outras coisas que eu tô colocando aqui só pra mostrar o quão grande pode ser o texto a sua descrição.
+            </p>
+
+            <div id="links">
+                <a target="_blank" data-name="tiktok" href="https://www.tiktok.com/in/yourprofile" class="link" target="_blank">
+                    <img src="socials/tiktok.svg" alt="tiktok">
+                </a>
+                <a target="_blank" data-name="x" href="https://x.com/yourprofile" class="link" target="_blank">
+                    <img src="socials/x.svg" alt="Twitter">
+                </a>
+                <a target="_blank"data-name="instagram" href="https://www.instagram.com/yourprofile" class="link" target="_blank">
+                    <img src="socials/instagram.svg" alt="Instagram">
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="container">
+        <h1 class="title">Habilidades</h1>
+        <div id="skills-container">
+
+            <div class="skill">
+                <img class="skill-icon" src="adobe-premiere-pro.svg" alt="adobe-premiere">
+                <p class="skill-text">Edição de Vídeos</p>
+                <p class="skill-description">10 anos de experiência</p>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="skill">
+                <img class="skill-icon" src="adobe-after-effects.svg" alt="adobe-after-effects">
+                <p class="skill-text">Motion Design</p>
+                <p class="skill-description">Descrição</p>
+            </div>
+
+            <div class="separator"></div>
+            
+            <div class="skill">
+                <img class="skill-icon" src="adobe-illustrator.svg" alt="adobe-photoshop">
+                <p class="skill-text">Mais alguma habilidade</p>
+                <p class="skill-description">Descrição</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="projetos" class="container">
+        <h1 class="title">Projetos</h2>
+        <div id="projects">
+            <div class="project">
+                <iframe class="project-video" src="https://www.youtube.com/embed/gmmPmnKFsTQ?si=VCOAbrZDvjfE04vc&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="project-description">
+                    <h3 class="project-title">Editei um vídeo pra X</h3>
+                    <p class="project-text">
+                        Uma edição mais simples a pedido do cliente. 
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project.jpg" alt="project" class="project-image">
+                <div class="project-description">
+                    <h3 class="project-title">Thumb 1</h3>
+                    <p class="project-text">
+                        Descrição da thumb. 
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project.jpg" alt="project" class="project-image">
+                <div class="project-description">
+                    <h3 class="project-title">Thumbnail 2</h3>
+                    <p class="project-text">
+                        Descrição da thumb. 
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project.jpg" alt="project" class="project-image">
+                <div class="project-description">
+                    <h3 class="project-title">bla bla bla</h3>
+                    <p class="project-text">
+                        Descrição do projeto.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container">
+        <h1 class="title">Vamos Trabalhar Juntos!</h1>
+        <p class="contact-description">
+            Se você está procurando um profissional dedicado e apaixonado pelo que faz, entre em contato e vamos criar algo incrível juntos!
+        </p>
+        <div>
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <a href="mailto:example@example.com" class="contact-link" target="_blank">
+                        <span class="material-symbols-outlined">mail</span> Email
+                    </a>
+                </li>
+                <li class="contact-phone">
+                    <button id="button-link" class="contact-link">
+                        <span class="material-symbols-outlined">phone_in_talk</span> 11 4002 8922
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
